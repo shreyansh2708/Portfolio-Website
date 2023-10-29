@@ -1,0 +1,25 @@
+.scroll-to-top > button{
+    width: 60px;
+    display: inline-block;
+    height: 60px;
+    background-color: white;
+    color: black;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 40px;
+    transition-duration: 0.4s;
+}
+.scroll-to-top > button:hover{
+    background-color: black;
+    color: white;
+}
+
+.scroll-to-top{
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+    z-index: 2;
+}

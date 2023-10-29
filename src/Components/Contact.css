@@ -1,0 +1,84 @@
+.contact-top {
+    width: 100%;
+    height: 740px;
+    margin: 0;
+    text-align: center;
+    background-color: #47726F;
+    padding-top: 50px;
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    gap: 20px;
+}
+
+.h1-hire {
+  color: white;
+  margin: 0;
+  padding-bottom: 40px;
+}
+
+.hire-box {
+  margin: 0 200px 80px 200px;
+  display: grid;
+  grid-template-columns: auto;
+  box-shadow: 5px 5px 5px 5px;
+  background-color: #47726F;
+}
+
+.hire-input {
+  text-align: left;
+  margin: 60px 150px;
+  display: grid;
+  grid-gap: 20px;
+}
+
+.input {
+  padding: 0 40px;
+}
+
+.input-name {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.input-boxmsg {
+  height: 100px;
+}
+.icon{
+    margin-left:735px;
+}
+textarea{
+    resize: none;
+    outline: none;
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 5px;
+    border: none;
+}
+
+.submit{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.submit > a > button{
+    width: 40%;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1A5D1A;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+
+}
+
+.submit > a> button:hover{
+    background-color: white;
+    color: black;
+}
